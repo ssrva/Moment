@@ -23,6 +23,8 @@ p {
 	white-space: pre;
 	word-wrap: normal;
 	overflow-x: auto;
+	background: #333333;
+	color: #FFFFFF;
 }
 
 .editor {

@@ -4,7 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"lint-staged": {
-		"*.{js,jsx}": ["npm run pretty", "git add"]
+		"*.{js,jsx}": [
+			"npm run pretty",
+			"git add"
+		]
 	},
 	"scripts": {
 		"precommit": "lint-staged",
@@ -35,8 +38,7 @@
 		"react-dom": "^16.3.2",
 		"slate": "^0.19.30",
 		"style-loader": "^0.17.0",
-		"webpack": "^2.4.1",
-		"webpack-dev-server": "^2.4.2"
+		"webpack": "^2.4.1"
 	},
 	"devDependencies": {},
 	"repository": {
