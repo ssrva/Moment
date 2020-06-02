@@ -422,6 +422,7 @@ class MarkdownEditor extends React.Component {
 				<Editor
 					schema={schema}
 					state={this.state.state}
+					spellCheck={false}
 					onChange={this.onChange}
 					onKeyDown={this.onKeyDown}
 					className="editor"
